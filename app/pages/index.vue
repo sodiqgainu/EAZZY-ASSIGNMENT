@@ -16,6 +16,7 @@
           <RecentWorks/>
           <JobExperience/>
           <Contact/>
+          <Copyright/>
       </div>
  
   
