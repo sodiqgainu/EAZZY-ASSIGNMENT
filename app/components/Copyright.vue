@@ -5,7 +5,7 @@
        </div>
 
        <div class="mt-[3rem] mb-[4rem] md:flex-row flex-col flex gap-6 justify-between">
-        <div class="copy-text opacity-0 text-balance border text-center md:text-justify">A COLLABORATIVE PROCESS BETWEEN OZENUA AND CENTURY LEAP</div>
+        <div class="copy-text opacity-0 text-balance  text-center md:text-justify">A COLLABORATIVE PROCESS BETWEEN OZENUA AND CENTURY LEAP</div>
         <h2 class="copy-text opacity-0 flex justify-end">OLAMIDE ADEYI. C 2022</h2>
        </div>
     </div>
