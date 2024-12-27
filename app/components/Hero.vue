@@ -1,5 +1,5 @@
 <template>
-   <section class=" flex flex-col  mx-5 mt-[100px] " data-cursor="-big">
+   <section class=" flex flex-col  mx-5 mt-[100px] opacity-0 hero-cont" data-cursor="-big">
     <Divider/>
     <h1 class="perse">OLAMIDE ADEYI</h1>
     <Divider/>
@@ -30,12 +30,16 @@ onMounted(() => {
 
     const tl = gsap.timeline()
     
+    tl.to('.hero-cont',{
+        opacity: 1
+    })
+
     tl.to('.perse',{
        z: '0px',
        duration:1.5,
        rotateX:0,
        opacity:1
-    })
+    },'0')
    
 
 })
