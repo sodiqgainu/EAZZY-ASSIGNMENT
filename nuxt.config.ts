@@ -9,6 +9,10 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  build: {
+    transpile: ["gsap"],
+  },
+
   plugins: [
     { src: '~/plugins/lenis.client.js', mode: 'client' },
   ],
