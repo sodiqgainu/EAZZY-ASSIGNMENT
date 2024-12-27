@@ -1,12 +1,21 @@
 <script >
 
 
+
+
+
+
 </script>
 
 <template>
 
-      <div >
+      <div class="">
           <Hero />
+          <About/>
+          <Skillset/>
+          <RecentWorks/>
+          <JobExperience/>
+          <Contact/>
       </div>
  
   

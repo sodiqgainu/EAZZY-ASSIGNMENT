@@ -4,8 +4,10 @@ export default {
   "./index.html",
   "./app/**/*.{vue,js,ts}",
   ],
+
+  darkMode: "class",
+
   theme: {
-    useDarkMode: true,
     extend: {},
   },
   plugins: [],

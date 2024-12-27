@@ -5,22 +5,54 @@
 
 @layer base {
 	body {
-		@apply  bg-white min-h-screen cursor-none ;
+		@apply  bg-gray-50 cursor-none min-h-full   overflow-x-hidden ;
 	}
 
 	* {
-		@apply transition-colors duration-200 cursor-none;
+		@apply  transition-colors duration-200  ;
 		
+	  }
+	  
+	  h4{
+		@apply text-[2.5vw] md:text-[1.5vw] font-[Arial] font-[400]
 	  }
 	
       .dark{
        @apply bg-black text-white
     }
+
+	button,a{
+		@apply cursor-none
+	}
+
 }
 
-*{
-    transition: all ease-in-out 0.2s;
+@layer utilities {
+	.nav-balance {
+		@apply flex justify-between items-center p-5 
+	}
+
+	.hidden-text{
+		@apply hidden md:flex
+	}
 }
 
+
+
+@font-face {
+	font-family: 'moglan';
+	src: url('/assets/fonts/moglandemo/Moglan_DEMO.ttf');
+}
+
+
+@font-face {
+	font-family: 'lato';
+	src: url('/assets/fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'gt';
+	src: url('/assets/fonts/GT-Haptik-Regular.woff2') format("woff2");
+}
 
 

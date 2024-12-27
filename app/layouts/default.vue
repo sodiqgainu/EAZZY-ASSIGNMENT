@@ -1,6 +1,6 @@
 <template>
-    <div data-cursor="-exclusion">
-    <BaseNavigation/>
+    <div data-cursor="-exclusion" >
+    <Navigation/>
      <slot/>
     </div>
 </template>
